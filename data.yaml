@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['book', 'bottle', 'cell phone', 'cup', 'cutter', 'fork', 'keyboard', 'knife', 'mouse', 'remote', 'scissors', 'spoon']
+
+roboflow:
+  workspace: sammy-lu9oo
+  project: detecting-working-desk
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sammy-lu9oo/detecting-working-desk/dataset/6
